@@ -1,4 +1,7 @@
 ### xReq
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/ehyyoj/xreq)](https://goreportcard.com/report/github.com/ehyyoj/xreq)
+
 xReq is a easy-to-use, flexiable and extendable Go HTTP Client. 
 
 **Quick Start**
