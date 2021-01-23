@@ -25,7 +25,10 @@ func main() {
 
 **Post a JSON request**
 ```golang
+package main
+
 import (
+	"context"
 	"fmt"
 	"time"
 
@@ -67,7 +70,6 @@ import (
 
 func main() {
 	client := xreq.NewClient(xreq.Config{
-		Retry:   3,
 		Timeout: time.Second * 2,
 	}, xreq.WithCheckStatus(true))
 	params := make(map[string]string)
